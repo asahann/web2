@@ -8,14 +8,8 @@
 	</head>
 	<body>
 		<div class="container">
-		<h2>Визначення кольору року</h2>
-		<form action="colorofyear.php" method="POST">
-		  <div class="mb-3">
-			<label for="exampleInputEmail1" class="form-label">Введіть рік</label>
-			<input type="text" name="year" class="form-control">
-		  </div>
-		  <button type="submit" class="btn btn-primary">Визначити</button>
-		</form>
+		<h2><a href="lab1/index.html">Визначення кольору року</a></h2>
+		
 		</div>
 	</body>
 </html>
