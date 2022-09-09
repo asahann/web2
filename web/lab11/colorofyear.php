@@ -2,7 +2,7 @@
 echo "Група: СНс-41.<br>";
 echo "ПІП: Саган Олександр Анатолійович<br>";
 echo "Дата створення: С09.09.2022<br>";
-echo "Поточна дата".date("d.m.Y")."<br>";
+echo "Поточна дата".date("d/m/Y")."<br>";
 $start = 1984;
 $current = $_POST['year'];;
 $res = ($current - $start)%10;
