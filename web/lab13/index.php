@@ -5,6 +5,8 @@ function array_multiply($arr, $n){foreach ($arr as &$val) {$val = $val * $n;} re
 function from_10_to_20_filter($num) {return $num > 10 and $num < 20;}
 function print_div($label, $data){echo "<div><p>$label $data</p></div>";}
 function array_to_string($arr){$string = "[ "; for ($i = 0; $i < sizeof($arr); $i++): $string = $string.$arr[$i].", "; endfor; return $string." ]";}
+function print_author(){echo "Група: СНс-41.<br>"; echo "ПІП: Саган Олександр Анатолійович.<br>"; echo "Дата створення: 2022/10/02.<br>"; echo "Поточна дата: ".date("Y/m/d").".<br>";}
+print_author();
 $A = [-9, 7, 8, 0, -1, 6, -4, 5, 0, 5];
 print_div("Data variant array A: ", array_to_string($A));
 #1)Product of negative elems
